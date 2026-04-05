@@ -46,3 +46,17 @@ jobs:
           git add tracking/results.json
           git diff --staged --quiet || git commit -m "🤖 Auto: update results.json [skip ci]"
           git push
+
+      - name: Notify AppScript (Sheet turant update)
+        env:
+          APPSCRIPT_URL: ${{ secrets.APPSCRIPT_URL }}
+        run: |
+          if [ -n "$APPSCRIPT_URL" ]; then
+            curl -L "$APPSCRIPT_URL" \
+              -o /tmp/response.json \
+              --silent --max-time 30
+            echo "AppScript response:"
+            cat /tmp/response.json
+          else
+            echo "APPSCRIPT_URL secret nahi mila — skip"
+          fi
