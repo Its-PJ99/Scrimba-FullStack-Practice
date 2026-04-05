@@ -2,14 +2,12 @@ import requests
 import os
 from config import YOUR_REPO, SCRIMBA_REPO, COMPARE_FILES
 
-# GitHub Token — Actions mein automatically milta hai
 TOKEN   = os.environ.get("GITHUB_TOKEN", "")
 HEADERS = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 BASE    = "https://api.github.com/repos"
 
 
 def get_folder_contents(repo, path):
-    """Folder ke andar ki files/folders lo"""
     url      = f"{BASE}/{repo}/contents/{requests.utils.quote(path, safe='/')}"
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
@@ -18,7 +16,6 @@ def get_folder_contents(repo, path):
 
 
 def get_file_sha(repo, filepath):
-    """Ek file ka SHA lo"""
     url      = f"{BASE}/{repo}/contents/{requests.utils.quote(filepath, safe='/')}"
     response = requests.get(url, headers=HEADERS)
     if response.status_code == 200:
@@ -27,33 +24,27 @@ def get_file_sha(repo, filepath):
 
 
 def find_compare_file(repo, lesson_path):
-    """
-    Lesson folder mein compare file dhundho
-    Priority: index.html > index.js > styles.css
-    """
-    contents = get_folder_contents(repo, lesson_path)
+    """Lesson folder mein index.html / index.js / styles.css dhundho"""
+    contents   = get_folder_contents(repo, lesson_path)
     file_names = [f["name"] for f in contents if f["type"] == "file"]
-
-    for compare_file in COMPARE_FILES:
-        if compare_file in file_names:
-            return f"{lesson_path}/{compare_file}", compare_file
-
+    for cf in COMPARE_FILES:
+        if cf in file_names:
+            return f"{lesson_path}/{cf}", cf
     return None, None
 
 
-def compare_lesson(module_path, lesson_name):
+def compare_lesson(module_path, section_name, lesson_name):
     """
-    Ek lesson compare karo:
-    SHA same   → ❌ Pending (tune change nahi kiya)
-    SHA different → ✅ Done  (tune kuch kiya!)
+    Ek lesson compare karo (3 levels deep):
+    Module / Section / Lesson / index.html
     """
-    lesson_path = f"{module_path}/{lesson_name}"
+    lesson_path = f"{module_path}/{section_name}/{lesson_name}"
 
-    # Compare file dhundho
     your_filepath, file_name = find_compare_file(YOUR_REPO, lesson_path)
     if not your_filepath:
         return {
             "module"  : module_path,
+            "section" : section_name,
             "lesson"  : lesson_name,
             "file"    : "No file",
             "status"  : "⚪ Skip",
@@ -64,13 +55,13 @@ def compare_lesson(module_path, lesson_name):
 
     scrimba_filepath = your_filepath  # Same path dono repos mein
 
-    your_sha   = get_file_sha(YOUR_REPO, your_filepath)
+    your_sha    = get_file_sha(YOUR_REPO, your_filepath)
     scrimba_sha = get_file_sha(SCRIMBA_REPO, scrimba_filepath)
 
-    # Dono exist nahi → skip
     if not your_sha and not scrimba_sha:
         return {
             "module"  : module_path,
+            "section" : section_name,
             "lesson"  : lesson_name,
             "file"    : file_name,
             "status"  : "⚪ Skip",
@@ -79,10 +70,10 @@ def compare_lesson(module_path, lesson_name):
             "orig_sha": "",
         }
 
-    # Tera file hai, Scrimba ka nahi → New file banaya!
     if your_sha and not scrimba_sha:
         return {
             "module"  : module_path,
+            "section" : section_name,
             "lesson"  : lesson_name,
             "file"    : file_name,
             "status"  : "🆕 New",
@@ -92,9 +83,9 @@ def compare_lesson(module_path, lesson_name):
         }
 
     changed = (your_sha != scrimba_sha)
-
     return {
         "module"  : module_path,
+        "section" : section_name,
         "lesson"  : lesson_name,
         "file"    : file_name,
         "status"  : "✅ Done" if changed else "❌ Pending",
@@ -105,24 +96,43 @@ def compare_lesson(module_path, lesson_name):
 
 
 def scan_module(module_name):
-    """Poore module ke sab lessons scan karo"""
-    print(f"\n📁 {module_name}")
-    print("-" * 50)
+    """
+    Poore module ke saare sections aur unke lessons scan karo
+    Structure: Module / Section / Lesson / index.html
+    """
+    print(f"\n📦 {module_name}")
+    print("=" * 55)
 
     results  = []
-    contents = get_folder_contents(YOUR_REPO, module_name)
+    sections = get_folder_contents(YOUR_REPO, module_name)
+    sections = [s for s in sections if s["type"] == "dir"]
 
-    # Sirf folders (lessons)
-    lessons = [item for item in contents if item["type"] == "dir"]
-
-    if not lessons:
-        print("  ⚠️  No lessons found!")
+    if not sections:
+        print("  ⚠️  No sections found!")
         return results
 
-    for item in lessons:
-        lesson_name = item["name"]
-        result      = compare_lesson(module_name, lesson_name)
-        results.append(result)
-        print(f"  {result['status']} — {lesson_name}")
+    for section in sections:
+        section_name = section["name"]
+        print(f"\n  📁 {section_name}")
+        print("  " + "-" * 45)
+
+        lessons = get_folder_contents(YOUR_REPO, f"{module_name}/{section_name}")
+        lessons = [l for l in lessons if l["type"] == "dir"]
+
+        if not lessons:
+            # Section ke andar directly files hain (flat structure)
+            result = compare_lesson(module_name, section_name, "")
+            # Flat structure handle karo
+            result["lesson"] = section_name
+            result["section"] = module_name
+            results.append(result)
+            print(f"    {result['status']} — {section_name}")
+            continue
+
+        for lesson in lessons:
+            lesson_name = lesson["name"]
+            result      = compare_lesson(module_name, section_name, lesson_name)
+            results.append(result)
+            print(f"    {result['status']} — {lesson_name}")
 
     return results
