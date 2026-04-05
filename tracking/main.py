@@ -26,11 +26,7 @@ def run():
     with open(results_path, "w", encoding="utf-8") as f:
         json.dump(all_results, f, ensure_ascii=False, indent=2)
     print(f"\n💾 results.json saved → {results_path}")
-
-    # Google Sheet update
-    update_sheet(all_results)
-
-    print("\n🎉 Done! Check your Google Sheet:")
+    print("\n🎉 Done! AppScript Google Sheet update karega.")
     print(f"   https://docs.google.com/spreadsheets/d/1BOemYV1b3a-ih5BMQFTHdfAYcdceBYhYT0QmFDw9RIk")
 
 
