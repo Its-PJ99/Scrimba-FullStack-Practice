@@ -1,0 +1,695 @@
+[
+  {
+    "module": "02. HTML and CSS Fundamentals",
+    "lesson": "01. Intro to HTML",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "02. HTML and CSS Fundamentals",
+    "lesson": "02. Intro to CSS",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "02. HTML and CSS Fundamentals",
+    "lesson": "03. Build a Business Card",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "02. HTML and CSS Fundamentals",
+    "lesson": "04. Build a Space Exploration Layout",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "02. HTML and CSS Fundamentals",
+    "lesson": "05. Build a Birthday Website",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "03. JavaScript Fundamentals",
+    "lesson": "01. Build a Counter App",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "03. JavaScript Fundamentals",
+    "lesson": "02. Solo Project - Basketball Scoreboard",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "bb24d73",
+    "orig_sha": "bb24d73"
+  },
+  {
+    "module": "03. JavaScript Fundamentals",
+    "lesson": "04. Build a Blackjack Game",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "03. JavaScript Fundamentals",
+    "lesson": "06. Build a Chrome Extension",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "04. Tools of the Trade",
+    "lesson": "01. Command Line Fundamentals",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "04. Tools of the Trade",
+    "lesson": "02. Command Line Power Tools",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "04. Tools of the Trade",
+    "lesson": "03. Essential Git and GitHub Skills",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "02. Aside- Text contrast",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "d98a4e7",
+    "orig_sha": "d98a4e7"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "03. Aside- Use of color",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "7fe4221",
+    "orig_sha": "7fe4221"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "04. Text contrast",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "05. Aside- Alternative text",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "f4f23c6",
+    "orig_sha": "f4f23c6"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "06. Aside- Links",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "c31c5d4",
+    "orig_sha": "c31c5d4"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "07. Links and alternative text",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "7ce2f12",
+    "orig_sha": "7ce2f12"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "08. Aside - Labels",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "d0cf188",
+    "orig_sha": "d0cf188"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "09. Aside - Radio buttons",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "10. Labels",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "4a4628d",
+    "orig_sha": "4a4628d"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "11. Semantic HTML",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "046e3d0",
+    "orig_sha": "046e3d0"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "12. Lists",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "f34c4a8",
+    "orig_sha": "f34c4a8"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "13. Text-size",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "ad91b9d",
+    "orig_sha": "ad91b9d"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "14. Headings",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "ad91b9d",
+    "orig_sha": "ad91b9d"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "15. ARIA",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "5d94564",
+    "orig_sha": "5d94564"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "16. ARIA live regions",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "19. Aside- Skip Navigation Link Part 1",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "2b6f853",
+    "orig_sha": "2b6f853"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "20. Aside- Skip Navigation Link Part 2",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "2b6f853",
+    "orig_sha": "2b6f853"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "21. Skip Navigation Link",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "1edf1ba",
+    "orig_sha": "1edf1ba"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "22. Final challenge part 1",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "55f50b5",
+    "orig_sha": "55f50b5"
+  },
+  {
+    "module": "05. Accessible Development",
+    "lesson": "23. Final challenge part 2",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "36cd06d",
+    "orig_sha": "36cd06d"
+  },
+  {
+    "module": "06. Essential CSS",
+    "lesson": "01. Build an NFT Site",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "06. Essential CSS",
+    "lesson": "02. Build a Portfolio",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "06. Essential CSS",
+    "lesson": "04. Build a Coworking Space Site",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "07. Essential JavaScript",
+    "lesson": "01. Build a Cookie Consent",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "07. Essential JavaScript",
+    "lesson": "02. Build a Meme App",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "07. Essential JavaScript",
+    "lesson": "03. Build a X Clone",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "07. Essential JavaScript",
+    "lesson": "04. Mini Projects",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "08. Responsive Design",
+    "lesson": "01. Responsive Layouts",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "08. Responsive Design",
+    "lesson": "02. Build a Product Page",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "08. Responsive Design",
+    "lesson": "03. CSS Grid",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "09. APIs and Async JavaScript",
+    "lesson": "01. Intro to APIs",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "09. APIs and Async JavaScript",
+    "lesson": "02. URLs and REST",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "09. APIs and Async JavaScript",
+    "lesson": "04. Async JavaScript",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "09. APIs and Async JavaScript",
+    "lesson": "06. Capstone Project",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "10. AI Engineering",
+    "lesson": "01. AI Engineering Fundamentals",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "10. AI Engineering",
+    "lesson": "03. RAG and Vector Databases",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "10. AI Engineering",
+    "lesson": "05. AI Agents",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "11. Node.js",
+    "lesson": "01. Build a Node API",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "11. Node.js",
+    "lesson": "02. Build a Fullstack Node App",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "12. Databases",
+    "lesson": "02. Writing SQL Queries",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "12. Databases",
+    "lesson": "03. Creating and Joining Tables",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "13. Express.js",
+    "lesson": "01. Build an Express API",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "13. Express.js",
+    "lesson": "02. Build a Fullstack Express App",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "13. Express.js",
+    "lesson": "03. Authentication",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "15. React.js Fundamentals",
+    "lesson": "01. Static Pages",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "15. React.js Fundamentals",
+    "lesson": "03. Data-Driven React",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "15. React.js Fundamentals",
+    "lesson": "04. React State",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "15. React.js Fundamentals",
+    "lesson": "05. Side Effects",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "15. React.js Fundamentals",
+    "lesson": "06. Capstone Project #1 - Tenzies",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "15. React.js Fundamentals",
+    "lesson": "07. Capstone Project #2 - Assembly- Endgame",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "16. Testing",
+    "lesson": "03. Write your first test",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "689cadb",
+    "orig_sha": "689cadb"
+  },
+  {
+    "module": "16. Testing",
+    "lesson": "04. Practice, practice, and practice",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "689cadb",
+    "orig_sha": "689cadb"
+  },
+  {
+    "module": "16. Testing",
+    "lesson": "05. Test user interactions",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "689cadb",
+    "orig_sha": "689cadb"
+  },
+  {
+    "module": "16. Testing",
+    "lesson": "07. Mock external services- Test",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "689cadb",
+    "orig_sha": "689cadb"
+  },
+  {
+    "module": "16. Testing",
+    "lesson": "09. Accessibility testing with a side of TDD",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "689cadb",
+    "orig_sha": "689cadb"
+  },
+  {
+    "module": "17. Advanced React.js",
+    "lesson": "01. Reusability",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "17. Advanced React.js",
+    "lesson": "02. Performance",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "17. Advanced React.js",
+    "lesson": "04. Routing",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "17. Advanced React.js",
+    "lesson": "05. Persistence",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "17. Advanced React.js",
+    "lesson": "06. Authentication",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "18. TypeScript",
+    "lesson": "01. TypeScript Fundamentals",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "18. TypeScript",
+    "lesson": "02. TypeScript in React",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "18. TypeScript",
+    "lesson": "03. Solo project - Typed Tenzies",
+    "file": "index.html",
+    "status": "❌ Pending",
+    "changed": false,
+    "your_sha": "8a78ff7",
+    "orig_sha": "8a78ff7"
+  },
+  {
+    "module": "19. Next.js",
+    "lesson": "01. Build a Next.js App",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  },
+  {
+    "module": "19. Next.js",
+    "lesson": "02. Rendering Strategies and More",
+    "file": "No file",
+    "status": "⚪ Skip",
+    "changed": false,
+    "your_sha": "",
+    "orig_sha": ""
+  }
+]
