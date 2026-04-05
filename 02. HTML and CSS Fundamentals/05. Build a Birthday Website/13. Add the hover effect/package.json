@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s03d48g",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~03h/s0gf9srj2u/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

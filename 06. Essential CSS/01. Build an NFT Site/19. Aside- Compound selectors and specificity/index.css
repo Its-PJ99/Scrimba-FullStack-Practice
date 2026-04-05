@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    color: #333;
+    font-family: 'Roboto';
+}
+
+section, .ad-container{
+    padding: 20px;
+}
+
+.ad-container{
+    border: 3px solid midnightblue;
+    border-radius: 4px;
+}
+
+.links-container{
+    padding: 20px;
+}
+
+h2, h4{
+    color: midnightblue;
+}
+
+h2{
+    margin: 0;
+}
+
+h4{
+    margin-bottom:0px
+}
+
+ul{
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+/* 
+Challenge: 
+1. Look through the html and the new
+compound selectors in the CSS below and 
+figure out what colour the "key 
+requirements" list will be.
+
+⚠️ DO NOT look at the mini browser
+until you have made your guess!
+*/
+
+section .ad-container #req-list ul li {
+    color: green;
+}
+
+body section .ad-container div .general-list li{
+    color: red;
+}
+
+button{
+    padding: 10px 19px;
+    color: midnightblue;
+    font-weight: bold;
+    background-color: skyblue;
+    border-radius: 4.6px;
+    border: 3px solid midnightblue;
+}
+
+a{
+    margin: 10px;
+}
+
+.ad-container a{
+    color: limegreen;
+    font-size: 18px;
+}
+
+.links-container a{
+    color: dodgerblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links-container a:hover{
+    color: fuchsia;
+}
+
+
+

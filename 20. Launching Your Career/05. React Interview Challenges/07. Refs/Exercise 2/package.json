@@ -1,0 +1,19 @@
+{
+  "name": "Scrim-s03mesr",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~018j/s03gcjb89e/head",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "webpack": "^2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  }
+}

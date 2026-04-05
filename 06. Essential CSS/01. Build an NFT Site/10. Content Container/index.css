@@ -1,0 +1,59 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin:0;
+}
+
+a{
+    color: #ef5839;
+    text-decoration: underline dotted; 
+}
+
+a:hover{
+    color: #d4b44c;
+}
+
+a:active{
+    color: #d4b44c;
+}
+
+/* 
+Challenge:
+1. In index.html, wrap the contents of the
+   header and sections in container divs.
+2. Create a selector and add the properties 
+   needed to fix the content width and align
+   it to the center.
+⚠️ The background colors must stay full 
+   width!
+*/
+
+section{
+    padding: 45px 0;
+}
+
+.main-image{
+    width:100%;
+}

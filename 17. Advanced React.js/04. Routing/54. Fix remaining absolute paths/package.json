@@ -1,0 +1,20 @@
+{
+  "name": "Scrim-s04sl5l",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~013f/s0g8v5i3lb/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.4.3",
+    "miragejs": "0.1.46",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*"
+  }
+}

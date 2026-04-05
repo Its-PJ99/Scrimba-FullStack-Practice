@@ -1,0 +1,36 @@
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: beige;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#blog-list {
+    padding: 10px;
+}
+
+form {
+    padding: 60px 10px 10px;
+}
+
+/* 
+Challenge: our form is hideous! Make it less hideous :P
+
+* Lay out the elements in a nicer way, maybe vertically. 
+  (CSS Grid or Flexbox should make this easy)
+* Add some background color to separate it from the posts
+* Style the button however you'd like.
+*/

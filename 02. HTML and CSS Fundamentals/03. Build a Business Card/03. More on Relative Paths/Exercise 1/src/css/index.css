@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+.image-div {
+    height: 200px;
+    width: 300px;
+    background-image: url('../../images/dog.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p {
+    text-align: center;
+    width: 300px;
+    color: green;
+}

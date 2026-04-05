@@ -1,0 +1,17 @@
+{
+  "name": "Scrim-s05nmnb",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~0x2z/s0il72rlp7/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "openai": "4.12.3",
+    "@supabase/supabase-js": "2.38.1",
+    "langchain": "0.0.168",
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

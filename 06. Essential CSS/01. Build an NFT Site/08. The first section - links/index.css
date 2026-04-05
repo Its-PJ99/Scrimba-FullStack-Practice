@@ -1,0 +1,44 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+h3{
+    color: #d0aaff;
+    font-size: 20px;
+    margin:0;
+}
+
+/* 
+Challenge:
+1. Set the color of the link in the paragraph.
+2. Make the link color change on hover and 
+   active states.
+3. Search online to find out how you can give 
+   the underline a dotted appearance. 
+*/
+
+section{
+    padding: 45px 0;
+}
+
+.main-image{
+    width:100%;
+}

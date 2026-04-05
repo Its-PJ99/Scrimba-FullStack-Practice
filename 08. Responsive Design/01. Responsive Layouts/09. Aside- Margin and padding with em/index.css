@@ -1,0 +1,80 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    color: #03045e;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient( 135deg, #90e0ef 10%, #00b4d8 100%);
+}
+
+h1 {
+    font-size: 3.375em; /* 54px */
+    font-family: 'Fugaz One', cursive;
+    margin: 0 0 0.222em;
+}
+
+h2 {
+    color: #0077b6;
+    margin: 0;
+}
+
+/*
+ Challenge: Convert values from px to em
+   - Padding and margin values of the h3
+   - Padding value of .container
+   - Padding and margin values of the header
+*/
+
+h3 {
+    font-size: 1.5em; /* 24px */
+    width: 80%;
+    border-bottom: dotted 1px;
+    padding-bottom: 12px;
+    margin: 0 auto 18px;
+}
+
+.container {
+    width: 680px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.day {
+    color: #355070;
+    text-align: center;
+    width: 20%;
+    padding: 1em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #00b4d8;
+}
+
+.total-wk {
+    font-size: 1.125em; /* 18px */
+    letter-spacing: -1px;
+}
+
+.week {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    gap: 12px;
+}
+
+.distance,
+.total-wk  {
+    font-weight: bold;
+}

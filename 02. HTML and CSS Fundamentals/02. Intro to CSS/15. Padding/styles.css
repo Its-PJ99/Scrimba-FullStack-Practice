@@ -1,0 +1,13 @@
+.card {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*
+    Challenge:
+    Add padding to make our card look like
+    the provided design */
+}

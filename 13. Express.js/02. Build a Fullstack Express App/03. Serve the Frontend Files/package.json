@@ -1,0 +1,15 @@
+{
+    "name": "spiral-sounds",
+    "version": "1.0.0",
+    "description": "Online classic vinyl store",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Tom Chant",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}

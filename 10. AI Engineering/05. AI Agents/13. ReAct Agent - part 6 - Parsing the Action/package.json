@@ -1,0 +1,15 @@
+{
+  "name": "Scrim-s05plj3",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~07vm/s0kitqcngq/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "openai": "4.14.2",
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

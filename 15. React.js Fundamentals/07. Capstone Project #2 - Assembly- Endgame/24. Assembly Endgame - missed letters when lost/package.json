@@ -1,0 +1,19 @@
+{
+  "name": "Scrim-s06j0u3",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~0zbz/s0rmt2jsoh/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "19.0.0-rc-a99d8e8d-20240916",
+    "react-dom": "19.0.0-rc-a99d8e8d-20240916",
+    "clsx": "2.1.1",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*"
+  }
+}

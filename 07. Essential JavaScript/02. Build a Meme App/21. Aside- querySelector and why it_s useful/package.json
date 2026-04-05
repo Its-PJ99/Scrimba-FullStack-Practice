@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s04asln",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~0f6/s09hgjfei8/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

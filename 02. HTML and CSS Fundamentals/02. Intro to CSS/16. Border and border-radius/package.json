@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s02t32d",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~01j/s033savmv0/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

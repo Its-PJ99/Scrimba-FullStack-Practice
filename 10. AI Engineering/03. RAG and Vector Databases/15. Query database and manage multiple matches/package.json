@@ -1,0 +1,16 @@
+{
+  "name": "Scrim-s05nqif",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~04db/s00c30fds9/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.38.2",
+    "openai": "4.12.3",
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

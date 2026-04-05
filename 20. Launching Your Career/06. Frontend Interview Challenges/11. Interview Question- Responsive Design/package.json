@@ -1,0 +1,17 @@
+{
+  "name": "Scrim-s01u9bo",
+  "description": "https://scrimba.com/fullstack-path-c0fullstack/~0163/s0vgs2uah6/head",
+  "scripts": {
+    "watch": "webpack -w",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*"
+  }
+}

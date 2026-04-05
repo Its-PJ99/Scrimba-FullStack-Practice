@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #474747;
+}
+
+main {
+    height: 100vh;
+    display: ???;
+    flex-direction: ???;
+    justify-content: ???;
+}
+
+/*
+Challenge: Set up flexbox so the three elements are
+evenly spread vertically on the screen (don't worry
+about the horizontal alignment yet)
+*/

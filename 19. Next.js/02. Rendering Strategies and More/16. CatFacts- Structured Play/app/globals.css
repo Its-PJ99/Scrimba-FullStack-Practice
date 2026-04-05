@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary: #93c5fd;
+  --primary-light: #bfdbfe;
+  --background: #e0f2fe;
+  --text: #1e3a8a;
+  --card-bg: #ffffff;
+  --card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+h1 {
+  color: #1e40af;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.fact-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: var(--card-shadow);
+  margin: 1.5rem 0;
+  position: relative;
+  border: 2px solid var(--primary-light);
+}
+
+.fact-card::before {
+  content: '"';
+  position: absolute;
+  top: -0.75rem;
+  left: 0.75rem;
+  font-size: 3rem;
+  color: #1e3a8a;
+  opacity: 0.3;
+}
+
+.fact-text {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.source {
+  font-size: 0.875rem;
+  color: #1e40af;
+  font-style: italic;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.timestamp {
+  font-size: 0.875rem;
+  color: #1e40af;
+  font-family: monospace;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background: var(--background);
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+  .page {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .fact-card {
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+  }
+
+  .fact-card::before {
+    top: -1rem;
+    left: 1rem;
+    font-size: 4rem;
+  }
+
+  .fact-text {
+    font-size: 1.25rem;
+  }
+}

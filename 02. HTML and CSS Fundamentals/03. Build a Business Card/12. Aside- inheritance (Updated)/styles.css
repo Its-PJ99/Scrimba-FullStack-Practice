@@ -1,0 +1,18 @@
+body {
+    margin: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+article {
+    text-align: center;
+}
+
+/*
+Challenge:
+Navigate to the Stack Overflow question and pick a 
+few inherited CSS properties. Add them to the article
+tag to see how they work.
+*/

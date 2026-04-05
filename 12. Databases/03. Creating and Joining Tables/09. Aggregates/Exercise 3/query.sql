@@ -1,0 +1,8 @@
+/*
+	Select the city and average car price
+	Round that car price to a whole number
+	
+	Only show dealerships which have cars
+	
+	Group by dealership city and state
+*/
