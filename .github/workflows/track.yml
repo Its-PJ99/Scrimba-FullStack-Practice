@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2        # Previous commit bhi chahiye diff ke liye
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -23,10 +25,18 @@ jobs:
       - name: Install packages
         run: pip install -r tracking/requirements.txt
 
+      - name: Get changed files
+        id: changed
+        run: |
+          CHANGED=$(git diff HEAD~1 HEAD --name-only | grep -v '^tracking/' | grep -v '^\.github/' || true)
+          echo "files=$CHANGED" >> $GITHUB_OUTPUT
+          echo "Changed files:"
+          echo "$CHANGED"
+
       - name: Run tracker
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GOOGLE_CREDS: ${{ secrets.GOOGLE_CREDS }}
+          CHANGED_FILES: ${{ steps.changed.outputs.files }}
         run: python tracking/main.py
 
       - name: Push results.json to repo
