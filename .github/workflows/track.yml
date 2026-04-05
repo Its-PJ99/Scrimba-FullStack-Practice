@@ -1,0 +1,35 @@
+name: 📊 Track Scrimba Progress
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install packages
+        run: pip install -r tracking/requirements.txt
+
+      - name: Run tracker
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GOOGLE_CREDS: ${{ secrets.GOOGLE_CREDS }}
+        run: python tracking/main.py
+
+      - name: Push results.json to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add tracking/results.json
+          git diff --staged --quiet || git commit -m "🤖 Auto: update results.json [skip ci]"
+          git push
